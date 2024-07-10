@@ -12,7 +12,7 @@
 	<artifactId>AppContatos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AppContatos</name>
-	<description>Aplicação de controle de produtos e estoque.</description>
+	<description>Aplicação de cadastro de pessoas e contatos.</description>
 	<url/>
 	<licenses>
 		<license/>
