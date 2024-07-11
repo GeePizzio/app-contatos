@@ -21,7 +21,7 @@ public class Contato {
 	private Long id;
 	
 	@Column(nullable = false)
-	private char tipoContato;
+	private int tipoContato;
 	
 	@Column(nullable = false)
 	private String contato;
@@ -48,11 +48,11 @@ public class Contato {
 		this.id = id;
 	}
 
-	public char getTipoContato() {
+	public int getTipoContato() {
 		return tipoContato;
 	}
 
-	public void setTipoContato(char tipoContato) {
+	public void setTipoContato(int tipoContato) {
 		this.tipoContato = tipoContato;
 	}
 
@@ -64,11 +64,11 @@ public class Contato {
 		this.contato = contato;
 	}
 
-	public Pessoa getpessoa() {
+	public Pessoa getPessoa() {
 		return pessoa;
 	}
 
-	public void setpessoa(Pessoa pessoa) {
+	public void setPessoa(Pessoa pessoa) {
 		this.pessoa = pessoa;
 	}
 
